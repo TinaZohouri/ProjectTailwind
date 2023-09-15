@@ -1,0 +1,51 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./*.{html,js}"],
+  theme: {
+    fontFamily: {
+      YekanRe: "Yekan",
+      YekanSb: "YekanSb",
+      YekanBo: "YekanBo",
+      YekanReFan: "YekanFan",
+      YekanSbFan: "YekanSbFan",
+      YekanBoFan: "YekanBoFan",
+    },
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: "#F9D342",
+          0.5: "#FEFBEC",
+          1: "#FEF6D9",
+          1.5: "#FDF2C6",
+          2: "#FDEDB3",
+          3: "#FBE58E",
+          4: "#FADC68",
+          6: "#CBAC35",
+          7: "#9D8528",
+          8: "#6F5D1B",
+          8.5: "#584A15",
+          9: "#41360E",
+          9.5: "#2A2308",
+          10: "#130F01",
+        },
+        second: {
+          DEFAULT: "#7942F9",
+          0.5: "#F2ECFE",
+          1: "#E4D9FE",
+          1.5: "#D7C6FD",
+          2: "#C9B3FD",
+          3: "#AF8EFB",
+          4: "#9468FA",
+          6: "#6235CB",
+          7: "#4B289D",
+          8: "#341B6F",
+          8.5: "#291558",
+          9: "#1D0E41",
+          9.5: "#12082A",
+          10: "#060113",
+        },
+      },
+    },
+  },
+  plugins: [],
+};

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Yekan;
+    src: url("../assets/fonts/YekanBakh-Regular.ttf") format("TrueType");
+  }
+  @font-face {
+    font-family: YekanSb;
+    src: url("../assets/fonts/YekanBakh-SemiBold.ttf") format("TrueType");
+  }
+  @font-face {
+    font-family: YekanBo;
+    src: url("../assets/fonts/YekanBakh-Bold.ttf") format("TrueType");
+  }
+  @font-face {
+    font-family: YekanFan;
+    src: url("../assets/fonts/YekanBakhFaNum-Regular.ttf") format("TrueType");
+  }
+  @font-face {
+    font-family: YekanSbFan;
+    src: url("../assets/fonts/YekanBakhFaNum-SemiBold.ttf") format("TrueType");
+  }
+  @font-face {
+    font-family: YekanBoFan;
+    src: url("../assets/fonts/YekanBakhFaNum-Bold.ttf") format("TrueType");
+  }
+}
